@@ -175,21 +175,33 @@ function showMember() {
 
   document.getElementById("name").innerText = m.name;
 
-  document.getElementById("score").innerText =
-    "Question " +
-    (current + 1) +
-    " of " +
-    members.length +
-    " | Score: " +
-    correct +
-    "/" +
-    answered;
+  let accuracy = 0;
+
+if (answered > 0) {
+  accuracy = (correct / answered * 100).toFixed(1);
+}
+
+document.getElementById("score").innerText =
+  "Question " +
+  (current + 1) +
+  " of " +
+  members.length +
+  " | Score: " +
+  correct +
+  "/" +
+  answered +
+  " | Accuracy: " +
+  accuracy +
+  "%";
 
   document.getElementById("result").innerText = "";
 }
 
 function guess(choice) {
 
+  current++;
+setTimeout(showMember, 1000);
+  
   answered++;
 
   if (choice === members[current].party) {
