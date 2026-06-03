@@ -33,20 +33,12 @@
     let correct = 0;
     let answered = 0;
 
-    const dataUrl =
-      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.json";
 
-    function shuffle(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
-    }
 
     async function loadMembers() {
-      try {
-        const response = await fetch(dataUrl);
-        const data = await response.json();
+    try {
+    const response = await fetch("members.json");
+    const data = await response.json();
 
         members = data.map(m => {
           const term = m.terms[m.terms.length - 1];
