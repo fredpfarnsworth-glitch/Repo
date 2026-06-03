@@ -15,27 +15,24 @@
 
     #photo {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 180px;
-      height: 220px;
+      margin: 0 auto;
+      width: 150px;
+      height: 185px;
       object-fit: cover;
       border: 1px solid #ccc;
       border-radius: 8px;
     }
 
-    
-
     button {
-      font-size: 16px;
-      padding: 9px 12px;
-      margin: 4px;
+      font-size: 14px;
+      padding: 8px 10px;
+      margin: 3px;
       cursor: pointer;
     }
 
     #score, #accuracy {
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
       margin: 8px 0;
     }
@@ -44,29 +41,6 @@
       font-size: 18px;
       font-weight: bold;
       margin-top: 10px;
-    }
-
-    @media (max-width: 768px) {
-      #photo {
-        width: 150px;
-        height: 185px;
-      }
-
-      button {
-        font-size: 14px;
-        padding: 8px 10px;
-        margin: 3px;
-      }
-
-      h1 {
-        font-size: 22px;
-      }
-
-      
-
-      #score, #accuracy {
-        font-size: 16px;
-      }
     }
   </style>
 </head>
@@ -77,8 +51,6 @@
   <p id="status">Loading...</p>
 
   <img id="photo" src="" style="display:none;">
-
-  
 
   <div id="buttons" style="display:none;">
     <button onclick="guess('Democrat')">Democrat</button>
@@ -128,29 +100,35 @@
       }
     }
 
+    function normalizeParty(party) {
+      return String(party).trim().toLowerCase();
+    }
+
     function updateScore() {
+      let questionNumber = current + 1;
+
+      if (questionNumber > members.length) {
+        questionNumber = members.length;
+      }
+
       const accuracy =
         answered > 0 ? ((correct / answered) * 100).toFixed(1) : "0.0";
 
       document.getElementById("score").innerText =
-        "Question " + (current + 1) + " of " + members.length +
+        "Question " + questionNumber + " of " + members.length +
         " | Score: " + correct + "/" + answered;
 
       document.getElementById("accuracy").innerText =
         "Accuracy: " + accuracy + "%";
     }
 
-    function normalizeParty(party) {
-      return String(party).trim().toLowerCase();
-    }
-
     function showMember() {
       if (current >= members.length) {
         document.getElementById("photo").style.display = "none";
         document.getElementById("buttons").style.display = "none";
-        document.getElementById("name").innerText = "Quiz Complete!";
+
         document.getElementById("result").innerText =
-          "Final Score: " + correct + " / " + answered;
+          "Quiz Complete! Final Score: " + correct + " / " + answered;
 
         const finalAccuracy =
           answered > 0 ? ((correct / answered) * 100).toFixed(1) : "0.0";
@@ -158,6 +136,7 @@
         document.getElementById("score").innerText = "";
         document.getElementById("accuracy").innerText =
           "Final Accuracy: " + finalAccuracy + "%";
+
         return;
       }
 
@@ -165,11 +144,11 @@
 
       document.getElementById("photo").style.display = "block";
       document.getElementById("photo").src = m.photo;
+
       document.getElementById("photo").onerror = function () {
         this.style.display = "none";
       };
 
-      document.getElementById("name").innerText = m.name;
       document.getElementById("result").innerText = "";
 
       updateScore();
@@ -190,8 +169,10 @@
 
       current++;
 
+      updateScore();
+
       setTimeout(showMember, 1000);
-    }00
+    }
 
     loadMembers();
   </script>
