@@ -3,15 +3,20 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Congress Party Quiz</title>
+
   <style>
     body {
-  font-family: Arial, sans-serif;
-  max-width: 700px;
-  margin: 20px auto;
-  text-align: center;
-}
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 10px auto;
+      text-align: center;
+      padding: 10px;
+    }
 
-    img {
+    #photo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       width: 180px;
       height: 220px;
       object-fit: cover;
@@ -19,216 +24,182 @@
       border-radius: 8px;
     }
 
+    #name {
+      text-align: center;
+      font-size: 20px;
+      margin: 10px 0 5px 0;
+    }
+
     button {
-      padding: 10px 20px;
-      margin: 5px;
-      font-size: 18px;
+      font-size: 16px;
+      padding: 9px 12px;
+      margin: 4px;
       cursor: pointer;
     }
 
-    #result {
-      font-weight: bold;
-      font-size: 20px;
-      margin-top: 10px;
-    }
-
-    #score {
-      margin-top: 10px;
+    #score, #accuracy {
+      text-align: center;
       font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
     }
-    #photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-#name {
-  text-align: center;
-  width: 100%;
-}
-#accuracy {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-    
+    #result {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
     @media (max-width: 768px) {
-  img {
-    width: 300px;
-    height: auto;
-  }
+      #photo {
+        width: 150px;
+        height: 185px;
+      }
 
-  button {
-    font-size: 24px;
-    padding: 15px 25px;
-  }
+      button {
+        font-size: 14px;
+        padding: 8px 10px;
+        margin: 3px;
+      }
 
-  body {
-    font-size: 20px;
-  }
-}
-    @media (max-width: 768px) {
-  img {
-    width: 160px;
-    height: 195px;
-  }
+      h1 {
+        font-size: 22px;
+      }
 
-  button {
-    font-size: 14px;
-    padding: 8px 12px;
-    margin: 3px;
-  }
+      #name {
+        font-size: 18px;
+      }
 
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  body {
-    margin: 10px;
-  }
-}
+      #score, #accuracy {
+        font-size: 16px;
+      }
+    }
   </style>
 </head>
+
 <body>
+  <h1>Congress Party Quiz</h1>
 
-<h1>Congress Party Quiz</h1>
+  <p id="status">Loading...</p>
 
-<p id="status">Loading...</p>
-
-<div id="memberCard">
   <img id="photo" src="" style="display:none;">
+
   <h2 id="name"></h2>
-</div>
 
-<div id="buttons" style="display:none;">
-  <button onclick="guess('Democrat')">Democrat</button>
-  <button onclick="guess('Republican')">Republican</button>
-  <button onclick="guess('Independent')">Independent</button>
-</div>
+  <div id="buttons" style="display:none;">
+    <button onclick="guess('Democrat')">Democrat</button>
+    <button onclick="guess('Republican')">Republican</button>
+    <button onclick="guess('Independent')">Independent</button>
+  </div>
 
-<p id="result"></p>
-<p id="score"></p>
-<p id="accuracy"></p>
+  <p id="result"></p>
+  <p id="score"></p>
+  <p id="accuracy"></p>
 
-<script>
+  <script>
+    let members = [];
+    let current = 0;
+    let correct = 0;
+    let answered = 0;
 
-let members = [];
-let current = 0;
-let correct = 0;
-let answered = 0;
+    async function loadMembers() {
+      try {
+        const response = await fetch("members.json?v=" + Date.now());
+        members = await response.json();
 
-async function loadMembers() {
-  try {
+        if (!Array.isArray(members) || members.length === 0) {
+          document.getElementById("status").innerText =
+            "members.json is empty or not valid.";
+          return;
+        }
 
-    const response = await fetch("members.json");
-    members = await response.json();
+        shuffle(members);
 
-    if (members.length === 0) {
-      document.getElementById("status").innerText =
-        "members.json contains no members.";
-      return;
+        document.getElementById("status").style.display = "none";
+        document.getElementById("buttons").style.display = "block";
+
+        showMember();
+
+      } catch (error) {
+        document.getElementById("status").innerText =
+          "Error loading members.json";
+        console.error(error);
+      }
     }
 
-    shuffle(members);
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
 
-    document.getElementById("status").style.display = "none";
-    document.getElementById("buttons").style.display = "block";
+    function updateScore() {
+      const accuracy =
+        answered > 0 ? ((correct / answered) * 100).toFixed(1) : "0.0";
 
-    showMember();
+      document.getElementById("score").innerText =
+        "Question " + (current + 1) + " of " + members.length +
+        " | Score: " + correct + "/" + answered;
 
-  } catch (error) {
-    document.getElementById("status").innerText =
-      "Error loading members.json";
-    console.error(error);
-  }
-}
+      document.getElementById("accuracy").innerText =
+        "Accuracy: " + accuracy + "%";
+    }
 
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
+    function normalizeParty(party) {
+      return String(party).trim().toLowerCase();
+    }
 
-function showMember() {
+    function showMember() {
+      if (current >= members.length) {
+        document.getElementById("photo").style.display = "none";
+        document.getElementById("buttons").style.display = "none";
+        document.getElementById("name").innerText = "Quiz Complete!";
+        document.getElementById("result").innerText =
+          "Final Score: " + correct + " / " + answered;
 
-  if (current >= members.length) {
+        const finalAccuracy =
+          answered > 0 ? ((correct / answered) * 100).toFixed(1) : "0.0";
 
-    document.getElementById("photo").style.display = "none";
-    document.getElementById("buttons").style.display = "none";
+        document.getElementById("score").innerText = "";
+        document.getElementById("accuracy").innerText =
+          "Final Accuracy: " + finalAccuracy + "%";
+        return;
+      }
 
-    document.getElementById("name").innerText =
-      "Quiz Complete!";
+      const m = members[current];
 
-    document.getElementById("result").innerText =
-      "Final Score: " + correct + " / " + answered;
+      document.getElementById("photo").style.display = "block";
+      document.getElementById("photo").src = m.photo;
+      document.getElementById("photo").onerror = function () {
+        this.style.display = "none";
+      };
 
-    document.getElementById("score").innerText =
-      "Accuracy: " +
-      Math.round((correct / answered) * 100) +
-      "%";
+      document.getElementById("name").innerText = m.name;
+      document.getElementById("result").innerText = "";
 
-    return;
-  }
+      updateScore();
+    }
 
-  const m = members[current];
+    function guess(choice) {
+      const m = members[current];
 
-  document.getElementById("photo").style.display = "block";
-  document.getElementById("photo").src = m.photo;
+      answered++;
 
-  document.getElementById("name").innerText = m.name;
+      if (normalizeParty(choice) === normalizeParty(m.party)) {
+        correct++;
+        document.getElementById("result").innerText = "Correct!";
+      } else {
+        document.getElementById("result").innerText =
+          "Wrong. Correct answer: " + m.party;
+      }
 
-  let accuracy = 0;
+      current++;
 
-if (answered > 0) {
-  accuracy = (correct / answered * 100).toFixed(1);
-}
+      setTimeout(showMember, 1000);
+    }
 
-document.getElementById("score").innerText =
-  "Question " + (current + 1) +
-  " of " + members.length +
-  " | Score: " + correct + "/" + answered;
-
-document.getElementById("accuracy").innerText =
-  "Accuracy: " + accuracy + "%";
-
-  document.getElementById("result").innerText = "";
-}
-
-function guess(choice) {
-
-  current++;
-setTimeout(showMember, 1000);
-  
-  answered++;
-
-  if (choice === members[current].party) {
-
-    correct++;
-
-    document.getElementById("result").innerText =
-      "Correct!";
-
-  } else {
-
-    document.getElementById("result").innerText =
-      "Wrong. Correct answer: " +
-      members[current].party;
-  }
-
-  current++;
-
-  setTimeout(showMember, 1000);
-}
-
-loadMembers();
-
-</script>
-
+    loadMembers();
+  </script>
 </body>
 </html>
