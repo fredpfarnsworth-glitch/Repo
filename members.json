@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ted Cruz",
+    "party": "Republican",
+    "photo": "https://unitedstates.github.io/images/congress/225x275/C001098.jpg"
+  },
+  {
+    "name": "John Cornyn",
+    "party": "Republican",
+    "photo": "https://unitedstates.github.io/images/congress/225x275/C001056.jpg"
+  },
+  {
+    "name": "Alexandria Ocasio-Cortez",
+    "party": "Democrat",
+    "photo": "https://unitedstates.github.io/images/congress/225x275/O000172.jpg"
+  }
+]
