@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Congress Party Quiz</title>
+  <style>
+    body { font-family: Arial; text-align: center; background:#e8f7ff; }
+    img { width:225px; height:275px; object-fit:cover; border:3px solid #222; }
+    button { margin:6px; padding:12px 22px; font-size:18px; cursor:pointer; }
+    #score { font-size:22px; margin:15px; }
+  </style>
+</head>
+<body>
+
+<h1>Congress Party Quiz</h1>
+<h2 id="name">Loading...</h2>
+<img id="photo" src="">
+<p id="info"></p>
+<div id="buttons"></div>
+<p id="score"></p>
+<button onclick="showScore()">Check Accuracy</button>
+
+<script>
+let members = [];
+let current = 0;
+let correct = 0;
+let answered = 0;
+
+const DATA_URL =
+"https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.json";
+
+const PHOTO_URL =
+"https://unitedstates.github.io/images/congress/225x275/";
+
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(data => {
+    members = data.filter(m => m.id.bioguide && m.terms.length);
+    members = members.sort(() => Math.random() - 0.5);
+    loadMember();
+  });
+
+function latestTerm(member) {
+  return member.terms[member.terms.length - 1];
+}
+
+function loadMember() {
+  let m = members[current];
+  let term = latestTerm(m);
+
+  document.getElementById("name").textContent =
+    m.name.official_full || (m.name.first + " " + m.name.last);
+
+  document.getElementById("photo").src =
+    PHOTO_URL + m.id.bioguide + ".jpg";
+
+  document.getElementById("info").textContent =
+    "Question " + (current + 1) + " of " + members.length;
+
+  makeButtons();
+}
+
+function makeButtons() {
+  let parties = [...new Set(
+    members.map(m => latestTerm(m).party)
+  )];
+
+  let html = "";
+  parties.forEach(party => {
+    html += `<button onclick="guess('${party}')">${party}</button>`;
+  });
+
+  document.getElementById("buttons").innerHTML = html;
+}
+
+function guess(party) {
+  let realParty = latestTerm(members[current]).party;
+
+  if (party === realParty) correct++;
+
+  answered++;
+  current++;
+
+  if (current >= members.length) {
+    showScore(true);
+  } else {
+    loadMember();
+  }
+}
+
+function showScore(done=false) {
+  let accuracy = answered === 0 ? 0 : Math.round((correct / answered) * 100);
+
+  document.getElementById("score").innerHTML =
+    "<b>Accuracy:</b> " + accuracy + "%<br>" +
+    correct + " correct out of " + answered;
+
+  if (done) {
+    document.getElementById("name").textContent = "Game Complete!";
+    document.getElementById("photo").style.display = "none";
+    document.getElementById("buttons").innerHTML = "";
+    document.getElementById("info").textContent = "";
+  }
+}
+</script>
+
+</body>
+</html>
