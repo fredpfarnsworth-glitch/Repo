@@ -30,7 +30,7 @@
       cursor: pointer;
     }
 
-    #score, #accuracy {
+    #score, #accuracy, #progressNote {
       text-align: center;
       font-size: 16px;
       font-weight: bold;
@@ -41,6 +41,13 @@
       font-size: 18px;
       font-weight: bold;
       margin-top: 10px;
+      min-height: 24px;
+    }
+
+    #resetButton {
+      margin-top: 12px;
+      font-size: 13px;
+      padding: 7px 10px;
     }
   </style>
 </head>
@@ -61,6 +68,11 @@
   <p id="result"></p>
   <p id="score"></p>
   <p id="accuracy"></p>
+  <p id="progressNote"></p>
+
+  <button id="resetButton" onclick="startOver()" style="display:none;">
+    Start Over
+  </button>
 
   <script>
     let members = [];
@@ -68,21 +80,45 @@
     let correct = 0;
     let answered = 0;
 
+    const STORAGE_KEY = "congressPartyQuizProgressV1";
+
     async function loadMembers() {
       try {
         const response = await fetch("members.json?v=" + Date.now());
-        members = await response.json();
+        const loadedMembers = await response.json();
 
-        if (!Array.isArray(members) || members.length === 0) {
+        if (!Array.isArray(loadedMembers) || loadedMembers.length === 0) {
           document.getElementById("status").innerText =
             "members.json is empty or not valid.";
           return;
         }
 
-        shuffle(members);
+        const saved = loadProgress();
+
+        if (
+          saved &&
+          Array.isArray(saved.members) &&
+          saved.members.length === loadedMembers.length
+        ) {
+          members = saved.members;
+          current = saved.current || 0;
+          correct = saved.correct || 0;
+          answered = saved.answered || 0;
+
+          document.getElementById("progressNote").innerText =
+            "Resumed saved quiz.";
+        } else {
+          members = loadedMembers;
+          shuffle(members);
+          current = 0;
+          correct = 0;
+          answered = 0;
+          saveProgress();
+        }
 
         document.getElementById("status").style.display = "none";
         document.getElementById("buttons").style.display = "block";
+        document.getElementById("resetButton").style.display = "inline-block";
 
         showMember();
 
@@ -102,6 +138,36 @@
 
     function normalizeParty(party) {
       return String(party).trim().toLowerCase();
+    }
+
+    function saveProgress() {
+      const progress = {
+        members: members,
+        current: current,
+        correct: correct,
+        answered: answered
+      };
+
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    }
+
+    function loadProgress() {
+      const savedText = localStorage.getItem(STORAGE_KEY);
+
+      if (!savedText) {
+        return null;
+      }
+
+      try {
+        return JSON.parse(savedText);
+      } catch (error) {
+        localStorage.removeItem(STORAGE_KEY);
+        return null;
+      }
+    }
+
+    function resetProgress() {
+      localStorage.removeItem(STORAGE_KEY);
     }
 
     function updateScore() {
@@ -137,6 +203,11 @@
         document.getElementById("accuracy").innerText =
           "Final Accuracy: " + finalAccuracy + "%";
 
+        document.getElementById("progressNote").innerText =
+          "Finished. Tap Start Over to play again.";
+
+        resetProgress();
+
         return;
       }
 
@@ -169,9 +240,28 @@
 
       current++;
 
+      saveProgress();
       updateScore();
 
       setTimeout(showMember, 1000);
+    }
+
+    function startOver() {
+      resetProgress();
+
+      current = 0;
+      correct = 0;
+      answered = 0;
+
+      shuffle(members);
+      saveProgress();
+
+      document.getElementById("progressNote").innerText =
+        "Started over.";
+
+      document.getElementById("buttons").style.display = "block";
+
+      showMember();
     }
 
     loadMembers();
