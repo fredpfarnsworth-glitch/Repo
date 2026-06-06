@@ -1,0 +1,3212 @@
+[
+  {
+    "name": "Lister Hill",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/001_lister_hill.jpg"
+  },
+  {
+    "name": "Jack Edwards",
+    "party": "Republican",
+    "state": "ALABAMA",
+    "image": "photos/002_jack_edwards.jpg"
+  },
+  {
+    "name": "John J. Sparkman",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/003_john_j_sparkman.jpg"
+  },
+  {
+    "name": "William L. Dickinson",
+    "party": "Republican",
+    "state": "ALABAMA",
+    "image": "photos/004_william_l_dickinson.jpg"
+  },
+  {
+    "name": "George Andrews",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/005_george_andrews.jpg"
+  },
+  {
+    "name": "William Nichols",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/006_william_nichols.jpg"
+  },
+  {
+    "name": "Armistead I. Selden, Jr.",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/007_armistead_i_selden_jr.jpg"
+  },
+  {
+    "name": "John Buchanan",
+    "party": "Republican",
+    "state": "ALABAMA",
+    "image": "photos/008_john_buchanan.jpg"
+  },
+  {
+    "name": "Tom Bevill",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/009_tom_bevill.jpg"
+  },
+  {
+    "name": "Robert E. Jones",
+    "party": "Democrat",
+    "state": "ALABAMA",
+    "image": "photos/010_robert_e_jones.jpg"
+  },
+  {
+    "name": "E. L. Bartlett",
+    "party": "Democrat",
+    "state": "ALASKA",
+    "image": "photos/011_e_l_bartlett.jpg"
+  },
+  {
+    "name": "Ernest Gruening",
+    "party": "Democrat",
+    "state": "ALASKA",
+    "image": "photos/012_ernest_gruening.jpg"
+  },
+  {
+    "name": "Howard W. Pollock",
+    "party": "Republican",
+    "state": "ALASKA",
+    "image": "photos/013_howard_w_pollock.jpg"
+  },
+  {
+    "name": "Carl Hayden",
+    "party": "Democrat",
+    "state": "ARIZONA",
+    "image": "photos/014_carl_hayden.jpg"
+  },
+  {
+    "name": "Paul J. Fannin",
+    "party": "Republican",
+    "state": "ARIZONA",
+    "image": "photos/015_paul_j_fannin.jpg"
+  },
+  {
+    "name": "John J. Rhodes",
+    "party": "Republican",
+    "state": "ARIZONA",
+    "image": "photos/016_john_j_rhodes.jpg"
+  },
+  {
+    "name": "Morris K. Udall",
+    "party": "Democrat",
+    "state": "ARIZONA",
+    "image": "photos/017_morris_k_udall.jpg"
+  },
+  {
+    "name": "Sam Steiger",
+    "party": "Republican",
+    "state": "ARIZONA",
+    "image": "photos/018_sam_steiger.jpg"
+  },
+  {
+    "name": "John L. McClellan",
+    "party": "Democrat",
+    "state": "ARKANSAS",
+    "image": "photos/019_john_l_mcclellan.jpg"
+  },
+  {
+    "name": "J. W. Fulbright",
+    "party": "Democrat",
+    "state": "ARKANSAS",
+    "image": "photos/020_j_w_fulbright.jpg"
+  },
+  {
+    "name": "John P. Hammerschmidt",
+    "party": "Republican",
+    "state": "ARKANSAS",
+    "image": "photos/021_john_p_hammerschmidt.jpg"
+  },
+  {
+    "name": "David H. Pryor",
+    "party": "Democrat",
+    "state": "ARKANSAS",
+    "image": "photos/022_david_h_pryor.jpg"
+  },
+  {
+    "name": "Thomas II. Kuchel",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/023_thomas_ii_kuchel.jpg"
+  },
+  {
+    "name": "George Murphy",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/024_george_murphy.jpg"
+  },
+  {
+    "name": "Harold T. Johnson",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/025_harold_t_johnson.jpg"
+  },
+  {
+    "name": "Don H. Clausen",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/026_don_h_clausen.jpg"
+  },
+  {
+    "name": "John E. Moss",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/027_john_e_moss.jpg"
+  },
+  {
+    "name": "Robert L. Leggett",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/028_robert_l_leggett.jpg"
+  },
+  {
+    "name": "William S. Mailliard",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/029_william_s_mailliard.jpg"
+  },
+  {
+    "name": "Phillip Burton",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/030_phillip_burton.jpg"
+  },
+  {
+    "name": "Jeffery Cohelan",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/031_jeffery_cohelan.jpg"
+  },
+  {
+    "name": "George P. Miller",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/032_george_p_miller.jpg"
+  },
+  {
+    "name": "Don Edwards",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/033_don_edwards.jpg"
+  },
+  {
+    "name": "Charles S. Guhser",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/034_charles_s_guhser.jpg"
+  },
+  {
+    "name": "J. Arthur Younger",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/035_j_arthur_younger.jpg"
+  },
+  {
+    "name": "Burt L. Talcott",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/036_burt_l_talcott.jpg"
+  },
+  {
+    "name": "Charles M. Teague",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/037_charles_m_teague.jpg"
+  },
+  {
+    "name": "Jerome R. Waldie",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/038_jerome_r_waldie.jpg"
+  },
+  {
+    "name": "John J. McFall",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/039_john_j_mcfall.jpg"
+  },
+  {
+    "name": "B. F. Sisk",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/040_b_f_sisk.jpg"
+  },
+  {
+    "name": "Cecil R. King",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/041_cecil_r_king.jpg"
+  },
+  {
+    "name": "Robert B. (Bob) Mathias",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/042_robert_b_bob_mathias.jpg"
+  },
+  {
+    "name": "Chet Holifield",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/043_chet_holifield.jpg"
+  },
+  {
+    "name": "H. Allen Smith",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/044_h_allen_smith.jpg"
+  },
+  {
+    "name": "Augustus F. Hawkins",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/045_augustus_f_hawkins.jpg"
+  },
+  {
+    "name": "James C. Corman",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/046_james_c_corman.jpg"
+  },
+  {
+    "name": "Del Clawson",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/047_del_clawson.jpg"
+  },
+  {
+    "name": "Glenard P. Lipscomb",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/048_glenard_p_lipscomb.jpg"
+  },
+  {
+    "name": "Charles E. Wiggins",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/049_charles_e_wiggins.jpg"
+  },
+  {
+    "name": "Thomas M. Rees",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/050_thomas_m_rees.jpg"
+  },
+  {
+    "name": "Ed Reinecke",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/051_ed_reinecke.jpg"
+  },
+  {
+    "name": "Alphonzo Bell",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/052_alphonzo_bell.jpg"
+  },
+  {
+    "name": "George E. Brown, Jr.",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/053_george_e_brown_jr.jpg"
+  },
+  {
+    "name": "Edward R. Roybal",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/054_edward_r_roybal.jpg"
+  },
+  {
+    "name": "Charles II. Wilson",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/055_charles_ii_wilson.jpg"
+  },
+  {
+    "name": "Craig Hosmer",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/056_craig_hosmer.jpg"
+  },
+  {
+    "name": "Jerry L. Pettis",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/057_jerry_l_pettis.jpg"
+  },
+  {
+    "name": "Richard T. Hanna",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/058_richard_t_hanna.jpg"
+  },
+  {
+    "name": "James B. Utt",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/059_james_b_utt.jpg"
+  },
+  {
+    "name": "Bob Wilson",
+    "party": "Republican",
+    "state": "CALIFORNIA",
+    "image": "photos/060_bob_wilson.jpg"
+  },
+  {
+    "name": "Lionel Van Deerlin",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/061_lionel_van_deerlin.jpg"
+  },
+  {
+    "name": "John V. Tunney",
+    "party": "Democrat",
+    "state": "CALIFORNIA",
+    "image": "photos/062_john_v_tunney.jpg"
+  },
+  {
+    "name": "Gordon Allott",
+    "party": "Republican",
+    "state": "COLORADO",
+    "image": "photos/063_gordon_allott.jpg"
+  },
+  {
+    "name": "Peter H. Dominick",
+    "party": "Republican",
+    "state": "COLORADO",
+    "image": "photos/064_peter_h_dominick.jpg"
+  },
+  {
+    "name": "Byron G. Rogers",
+    "party": "Democrat",
+    "state": "COLORADO",
+    "image": "photos/065_byron_g_rogers.jpg"
+  },
+  {
+    "name": "Donald G. Brotzman",
+    "party": "Republican",
+    "state": "COLORADO",
+    "image": "photos/066_donald_g_brotzman.jpg"
+  },
+  {
+    "name": "Frank E. Evans",
+    "party": "Democrat",
+    "state": "COLORADO",
+    "image": "photos/067_frank_e_evans.jpg"
+  },
+  {
+    "name": "Democrat—10th term",
+    "party": "Democrat",
+    "state": "COLORADO",
+    "image": "photos/068_democrat_10th_term.jpg"
+  },
+  {
+    "name": "Thomas J. Dodd",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/069_thomas_j_dodd.jpg"
+  },
+  {
+    "name": "Abraham A. Ribicoff",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/070_abraham_a_ribicoff.jpg"
+  },
+  {
+    "name": "Emilio Q. Daddario",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/071_emilio_q_daddario.jpg"
+  },
+  {
+    "name": "William L. St. Onge",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/072_william_l_st_onge.jpg"
+  },
+  {
+    "name": "Robert N. Giaimo",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/073_robert_n_giaimo.jpg"
+  },
+  {
+    "name": "Donald J. Irwin",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/074_donald_j_irwin.jpg"
+  },
+  {
+    "name": "John S. Monagan",
+    "party": "Democrat",
+    "state": "CONNECTICUT",
+    "image": "photos/075_john_s_monagan.jpg"
+  },
+  {
+    "name": "Thomas J. Meskill",
+    "party": "Republican",
+    "state": "CONNECTICUT",
+    "image": "photos/076_thomas_j_meskill.jpg"
+  },
+  {
+    "name": "J. Caleb Boggs",
+    "party": "Republican",
+    "state": "DELAWARE",
+    "image": "photos/077_j_caleb_boggs.jpg"
+  },
+  {
+    "name": "John J. Williams",
+    "party": "Republican",
+    "state": "DELAWARE",
+    "image": "photos/078_john_j_williams.jpg"
+  },
+  {
+    "name": "William V. Roth, Jr.",
+    "party": "Republican",
+    "state": "DELAWARE",
+    "image": "photos/079_william_v_roth_jr.jpg"
+  },
+  {
+    "name": "Spessart! L. Holland",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/080_spessart_l_holland.jpg"
+  },
+  {
+    "name": "George A. Smatliers",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/081_george_a_smatliers.jpg"
+  },
+  {
+    "name": "Charles E. Bennett",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/082_charles_e_bennett.jpg"
+  },
+  {
+    "name": "A. Sydney Herlong, Jr.",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/083_a_sydney_herlong_jr.jpg"
+  },
+  {
+    "name": "Edward J. Gurney",
+    "party": "Republican",
+    "state": "FLORIDA",
+    "image": "photos/084_edward_j_gurney.jpg"
+  },
+  {
+    "name": "Sam M. Gibbons",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/085_sam_m_gibbons.jpg"
+  },
+  {
+    "name": "James A. Haley",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/086_james_a_haley.jpg"
+  },
+  {
+    "name": "William C. Cramer",
+    "party": "Republican",
+    "state": "FLORIDA",
+    "image": "photos/087_william_c_cramer.jpg"
+  },
+  {
+    "name": "J. Herbert Burke",
+    "party": "Republican",
+    "state": "FLORIDA",
+    "image": "photos/088_j_herbert_burke.jpg"
+  },
+  {
+    "name": "Paul G. Rogers",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/089_paul_g_rogers.jpg"
+  },
+  {
+    "name": "Claude Pepper",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/090_claude_pepper.jpg"
+  },
+  {
+    "name": "Dante B. Fascell",
+    "party": "Democrat",
+    "state": "FLORIDA",
+    "image": "photos/091_dante_b_fascell.jpg"
+  },
+  {
+    "name": "Richard B. Russell",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/092_richard_b_russell.jpg"
+  },
+  {
+    "name": "Herman E. Talmadge",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/093_herman_e_talmadge.jpg"
+  },
+  {
+    "name": "G. Elliott Hagan",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/094_g_elliott_hagan.jpg"
+  },
+  {
+    "name": "Maston O’Neal",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/095_maston_oneal.jpg"
+  },
+  {
+    "name": "Jack Brinkley",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/096_jack_brinkley.jpg"
+  },
+  {
+    "name": "Benjamin B. Blackburn",
+    "party": "Republican",
+    "state": "GEORGIA",
+    "image": "photos/097_benjamin_b_blackburn.jpg"
+  },
+  {
+    "name": "Fletcher Thompson",
+    "party": "Republican",
+    "state": "GEORGIA",
+    "image": "photos/098_fletcher_thompson.jpg"
+  },
+  {
+    "name": "John J. Flynt, Jr.",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/099_john_j_flynt_jr.jpg"
+  },
+  {
+    "name": "Democrat—4th term",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/100_democrat_4th_term.jpg"
+  },
+  {
+    "name": "Williamson S. Stuckey",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/101_williamson_s_stuckey.jpg"
+  },
+  {
+    "name": "Democrat—4th term",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/102_democrat_4th_term.jpg"
+  },
+  {
+    "name": "Phil M. Landrum",
+    "party": "Democrat",
+    "state": "GEORGIA",
+    "image": "photos/103_phil_m_landrum.jpg"
+  },
+  {
+    "name": "Hiram L. Fong",
+    "party": "Republican",
+    "state": "HAWAII",
+    "image": "photos/104_hiram_l_fong.jpg"
+  },
+  {
+    "name": "Daniel K. Inouye",
+    "party": "Democrat",
+    "state": "HAWAII",
+    "image": "photos/105_daniel_k_inouye.jpg"
+  },
+  {
+    "name": "Spark M. Matsunaga",
+    "party": "Democrat",
+    "state": "HAWAII",
+    "image": "photos/106_spark_m_matsunaga.jpg"
+  },
+  {
+    "name": "Democrat—2d term",
+    "party": "Democrat",
+    "state": "HAWAII",
+    "image": "photos/107_democrat_2d_term.jpg"
+  },
+  {
+    "name": "Frank Church",
+    "party": "Democrat",
+    "state": "IDAHO",
+    "image": "photos/108_frank_church.jpg"
+  },
+  {
+    "name": "Len B. Jordan",
+    "party": "Republican",
+    "state": "IDAHO",
+    "image": "photos/109_len_b_jordan.jpg"
+  },
+  {
+    "name": "James A. McClure",
+    "party": "Republican",
+    "state": "IDAHO",
+    "image": "photos/110_james_a_mcclure.jpg"
+  },
+  {
+    "name": "George V. Hansen",
+    "party": "Republican",
+    "state": "IDAHO",
+    "image": "photos/111_george_v_hansen.jpg"
+  },
+  {
+    "name": "Everett M. Dirksen",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/112_everett_m_dirksen.jpg"
+  },
+  {
+    "name": "Charles H. Percy",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/113_charles_h_percy.jpg"
+  },
+  {
+    "name": "William L. Dawson",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/114_william_l_dawson.jpg"
+  },
+  {
+    "name": "Barratt O’Hara",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/115_barratt_ohara.jpg"
+  },
+  {
+    "name": "William T. Murphy",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/116_william_t_murphy.jpg"
+  },
+  {
+    "name": "Edward J. Derwinski",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/117_edward_j_derwinski.jpg"
+  },
+  {
+    "name": "Democrat—2d term",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/118_democrat_2d_term.jpg"
+  },
+  {
+    "name": "John C. Kluczynski",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/119_john_c_kluczynski.jpg"
+  },
+  {
+    "name": "Dan Rostenkowski",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/120_dan_rostenkowski.jpg"
+  },
+  {
+    "name": "Frank Annunzio",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/121_frank_annunzio.jpg"
+  },
+  {
+    "name": "Democrat—9th term*",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/122_democrat_9th_term.jpg"
+  },
+  {
+    "name": "Harold R. Collier",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/123_harold_r_collier.jpg"
+  },
+  {
+    "name": "Roman C. Pucinski",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/124_roman_c_pucinski.jpg"
+  },
+  {
+    "name": "Robert McClory",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/125_robert_mcclory.jpg"
+  },
+  {
+    "name": "John N. Erlenborn",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/126_john_n_erlenborn.jpg"
+  },
+  {
+    "name": "Donald Rumsfeld",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/127_donald_rumsfeld.jpg"
+  },
+  {
+    "name": "Charlotte T. Reid",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/128_charlotte_t_reid.jpg"
+  },
+  {
+    "name": "John B. Anderson",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/129_john_b_anderson.jpg"
+  },
+  {
+    "name": "Leslie C. Arends",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/130_leslie_c_arends.jpg"
+  },
+  {
+    "name": "Robert II. Michel",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/131_robert_ii_michel.jpg"
+  },
+  {
+    "name": "Paul Findley",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/132_paul_findley.jpg"
+  },
+  {
+    "name": "Thomas F. Railsback",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/133_thomas_f_railsback.jpg"
+  },
+  {
+    "name": "Kenneth J. Gray",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/134_kenneth_j_gray.jpg"
+  },
+  {
+    "name": "William L. Springer",
+    "party": "Republican",
+    "state": "ILLINOIS",
+    "image": "photos/135_william_l_springer.jpg"
+  },
+  {
+    "name": "of Olney (23d Dist.)",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/136_of_olney_23d_dist.jpg"
+  },
+  {
+    "name": "Melvin Price",
+    "party": "Democrat",
+    "state": "ILLINOIS",
+    "image": "photos/137_melvin_price.jpg"
+  },
+  {
+    "name": "Vance Hartke",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/138_vance_hartke.jpg"
+  },
+  {
+    "name": "Birch E. Bayh",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/139_birch_e_bayh.jpg"
+  },
+  {
+    "name": "Ray J. Madden",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/140_ray_j_madden.jpg"
+  },
+  {
+    "name": "Charles A. Halleck",
+    "party": "Republican",
+    "state": "INDIANA",
+    "image": "photos/141_charles_a_halleck.jpg"
+  },
+  {
+    "name": "John Brademas",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/142_john_brademas.jpg"
+  },
+  {
+    "name": "E.",
+    "party": "Republican",
+    "state": "INDIANA",
+    "image": "photos/143_e.jpg"
+  },
+  {
+    "name": "J. Edward Roush",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/144_j_edward_roush.jpg"
+  },
+  {
+    "name": "William G. Bray",
+    "party": "Republican",
+    "state": "INDIANA",
+    "image": "photos/145_william_g_bray.jpg"
+  },
+  {
+    "name": "John T. Myers",
+    "party": "Republican",
+    "state": "INDIANA",
+    "image": "photos/146_john_t_myers.jpg"
+  },
+  {
+    "name": "Roger H. Zion",
+    "party": "Republican",
+    "state": "INDIANA",
+    "image": "photos/147_roger_h_zion.jpg"
+  },
+  {
+    "name": "Lee II. Hamilton",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/148_lee_ii_hamilton.jpg"
+  },
+  {
+    "name": "Richard L. Roudebush",
+    "party": "Republican",
+    "state": "INDIANA",
+    "image": "photos/149_richard_l_roudebush.jpg"
+  },
+  {
+    "name": "Andrew Jacobs, Jr.",
+    "party": "Democrat",
+    "state": "INDIANA",
+    "image": "photos/150_andrew_jacobs_jr.jpg"
+  },
+  {
+    "name": "Bourke B. Hickenlooper",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/151_bourke_b_hickenlooper.jpg"
+  },
+  {
+    "name": "Jack Miller",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/152_jack_miller.jpg"
+  },
+  {
+    "name": "Fred Schwengel",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/153_fred_schwengel.jpg"
+  },
+  {
+    "name": "Democrat—2d term",
+    "party": "Democrat",
+    "state": "IOWA",
+    "image": "photos/154_democrat_2d_term.jpg"
+  },
+  {
+    "name": "Neal Smith",
+    "party": "Democrat",
+    "state": "IOWA",
+    "image": "photos/155_neal_smith.jpg"
+  },
+  {
+    "name": "Wiley Mayne",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/156_wiley_mayne.jpg"
+  },
+  {
+    "name": "William J. Scherle",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/157_william_j_scherle.jpg"
+  },
+  {
+    "name": "Frank Carlson",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/158_frank_carlson.jpg"
+  },
+  {
+    "name": "James B. Pearson",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/159_james_b_pearson.jpg"
+  },
+  {
+    "name": "Bob Dole",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/160_bob_dole.jpg"
+  },
+  {
+    "name": "Chester L. Mize",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/161_chester_l_mize.jpg"
+  },
+  {
+    "name": "Larry Winn, Jr.",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/162_larry_winn_jr.jpg"
+  },
+  {
+    "name": "Garner E. Shriver",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/163_garner_e_shriver.jpg"
+  },
+  {
+    "name": "Joe Sknbitz",
+    "party": "Republican",
+    "state": "KANSAS",
+    "image": "photos/164_joe_sknbitz.jpg"
+  },
+  {
+    "name": "John Sherman Cooper",
+    "party": "Republican",
+    "state": "KENTUCKY",
+    "image": "photos/165_john_sherman_cooper.jpg"
+  },
+  {
+    "name": "Thruston B. Morton",
+    "party": "Republican",
+    "state": "KENTUCKY",
+    "image": "photos/166_thruston_b_morton.jpg"
+  },
+  {
+    "name": "Frank A. Stubblefield",
+    "party": "Democrat",
+    "state": "KENTUCKY",
+    "image": "photos/167_frank_a_stubblefield.jpg"
+  },
+  {
+    "name": "William H. Natcher",
+    "party": "Democrat",
+    "state": "KENTUCKY",
+    "image": "photos/168_william_h_natcher.jpg"
+  },
+  {
+    "name": "William O. Cowger",
+    "party": "Republican",
+    "state": "KENTUCKY",
+    "image": "photos/169_william_o_cowger.jpg"
+  },
+  {
+    "name": "M. G. (Gene) Snyder",
+    "party": "Republican",
+    "state": "KENTUCKY",
+    "image": "photos/170_m_g_gene_snyder.jpg"
+  },
+  {
+    "name": "Tim Lee Carter",
+    "party": "Republican",
+    "state": "KENTUCKY",
+    "image": "photos/171_tim_lee_carter.jpg"
+  },
+  {
+    "name": "John C. Watts",
+    "party": "Democrat",
+    "state": "KENTUCKY",
+    "image": "photos/172_john_c_watts.jpg"
+  },
+  {
+    "name": "Carl D. Perkins",
+    "party": "Democrat",
+    "state": "KENTUCKY",
+    "image": "photos/173_carl_d_perkins.jpg"
+  },
+  {
+    "name": "Allen J. Ellender",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/174_allen_j_ellender.jpg"
+  },
+  {
+    "name": "Russell B. Long",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/175_russell_b_long.jpg"
+  },
+  {
+    "name": "F. Edward Hebert",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/176_f_edward_hebert.jpg"
+  },
+  {
+    "name": "Hale Boggs",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/177_hale_boggs.jpg"
+  },
+  {
+    "name": "Edwin E. Willis",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/178_edwin_e_willis.jpg"
+  },
+  {
+    "name": "Joe D. Waggonner, Jr.",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/179_joe_d_waggonner_jr.jpg"
+  },
+  {
+    "name": "Otto E. Passman",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/180_otto_e_passman.jpg"
+  },
+  {
+    "name": "John R. Rarick",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/181_john_r_rarick.jpg"
+  },
+  {
+    "name": "Edwin W. Edwards",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/182_edwin_w_edwards.jpg"
+  },
+  {
+    "name": "Speedy O. Long",
+    "party": "Democrat",
+    "state": "LOUISIANA",
+    "image": "photos/183_speedy_o_long.jpg"
+  },
+  {
+    "name": "Margaret Chase Smith",
+    "party": "Republican",
+    "state": "MAINE",
+    "image": "photos/184_margaret_chase_smith.jpg"
+  },
+  {
+    "name": "Edmund S. Muskie",
+    "party": "Democrat",
+    "state": "MAINE",
+    "image": "photos/185_edmund_s_muskie.jpg"
+  },
+  {
+    "name": "Peter N. Kyros",
+    "party": "Democrat",
+    "state": "MAINE",
+    "image": "photos/186_peter_n_kyros.jpg"
+  },
+  {
+    "name": "William D. Hathaway",
+    "party": "Democrat",
+    "state": "MAINE",
+    "image": "photos/187_william_d_hathaway.jpg"
+  },
+  {
+    "name": "Daniel B. Brewster",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/188_daniel_b_brewster.jpg"
+  },
+  {
+    "name": "Joseph D. Tydings",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/189_joseph_d_tydings.jpg"
+  },
+  {
+    "name": "Rogers C. B. Morton",
+    "party": "Republican",
+    "state": "MARYLAND",
+    "image": "photos/190_rogers_c_b_morton.jpg"
+  },
+  {
+    "name": "Clarence D. Long",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/191_clarence_d_long.jpg"
+  },
+  {
+    "name": "Edward A. Garniatz",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/192_edward_a_garniatz.jpg"
+  },
+  {
+    "name": "George II. Fallon",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/193_george_ii_fallon.jpg"
+  },
+  {
+    "name": "Hervey G. Machen",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/194_hervey_g_machen.jpg"
+  },
+  {
+    "name": "Charles McC. Mathias, Jr.",
+    "party": "Republican",
+    "state": "MARYLAND",
+    "image": "photos/195_charles_mcc_mathias_jr.jpg"
+  },
+  {
+    "name": "Samuel N. Friedel",
+    "party": "Democrat",
+    "state": "MARYLAND",
+    "image": "photos/196_samuel_n_friedel.jpg"
+  },
+  {
+    "name": "Gilbert Gude",
+    "party": "Republican",
+    "state": "MARYLAND",
+    "image": "photos/197_gilbert_gude.jpg"
+  },
+  {
+    "name": "Edward M. Kennedy",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/198_edward_m_kennedy.jpg"
+  },
+  {
+    "name": "Edward W. Brooke",
+    "party": "Republican",
+    "state": "MASSACHUSETTS",
+    "image": "photos/199_edward_w_brooke.jpg"
+  },
+  {
+    "name": "Silvio O. Conte",
+    "party": "Republican",
+    "state": "MASSACHUSETTS",
+    "image": "photos/200_silvio_o_conte.jpg"
+  },
+  {
+    "name": "Edward P. Boland",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/201_edward_p_boland.jpg"
+  },
+  {
+    "name": "Philip J. Philbin",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/202_philip_j_philbin.jpg"
+  },
+  {
+    "name": "Harold D. Donohue",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/203_harold_d_donohue.jpg"
+  },
+  {
+    "name": "Republican—4th term",
+    "party": "Republican",
+    "state": "MASSACHUSETTS",
+    "image": "photos/204_republican_4th_term.jpg"
+  },
+  {
+    "name": "William H. Bates",
+    "party": "Republican",
+    "state": "MASSACHUSETTS",
+    "image": "photos/205_william_h_bates.jpg"
+  },
+  {
+    "name": "Torbert II. Macdonald",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/206_torbert_ii_macdonald.jpg"
+  },
+  {
+    "name": "Thomas P. O’Neill, Jr.",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/207_thomas_p_oneill_jr.jpg"
+  },
+  {
+    "name": "John W. McCormack",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/208_john_w_mccormack.jpg"
+  },
+  {
+    "name": "Margaret M. Heckler",
+    "party": "Republican",
+    "state": "MASSACHUSETTS",
+    "image": "photos/209_margaret_m_heckler.jpg"
+  },
+  {
+    "name": "James A. Burke",
+    "party": "Democrat",
+    "state": "MASSACHUSETTS",
+    "image": "photos/210_james_a_burke.jpg"
+  },
+  {
+    "name": "Republican—5lh term",
+    "party": "Republican",
+    "state": "MASSACHUSETTS",
+    "image": "photos/211_republican_5lh_term.jpg"
+  },
+  {
+    "name": "Philip A. Hart",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/212_philip_a_hart.jpg"
+  },
+  {
+    "name": "Robert P. Griffin",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/213_robert_p_griffin.jpg"
+  },
+  {
+    "name": "John Conyers, Jr.",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/214_john_conyers_jr.jpg"
+  },
+  {
+    "name": "Marvin L. Esch",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/215_marvin_l_esch.jpg"
+  },
+  {
+    "name": "Garry E. Brown",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/216_garry_e_brown.jpg"
+  },
+  {
+    "name": "Edward Hutchinson",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/217_edward_hutchinson.jpg"
+  },
+  {
+    "name": "Gerald R. Ford",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/218_gerald_r_ford.jpg"
+  },
+  {
+    "name": "Charles E. Chamberlain",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/219_charles_e_chamberlain.jpg"
+  },
+  {
+    "name": "Donald W. Riegle, Jr.",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/220_donald_w_riegle_jr.jpg"
+  },
+  {
+    "name": "Republican—4th term",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/221_republican_4th_term.jpg"
+  },
+  {
+    "name": "Guy Vander Jagt",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/222_guy_vander_jagt.jpg"
+  },
+  {
+    "name": "Elford A. Cederberg",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/223_elford_a_cederberg.jpg"
+  },
+  {
+    "name": "Philip E. Ruppe",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/224_philip_e_ruppe.jpg"
+  },
+  {
+    "name": "James G. O’Hara",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/225_james_g_ohara.jpg"
+  },
+  {
+    "name": "Charles C. Diggs, Jr.",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/226_charles_c_diggs_jr.jpg"
+  },
+  {
+    "name": "Lucien N. Nedzi",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/227_lucien_n_nedzi.jpg"
+  },
+  {
+    "name": "William D. Ford",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/228_william_d_ford.jpg"
+  },
+  {
+    "name": "John D. Dingell",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/229_john_d_dingell.jpg"
+  },
+  {
+    "name": "Martha W. Griffiths",
+    "party": "Democrat",
+    "state": "MICHIGAN",
+    "image": "photos/230_martha_w_griffiths.jpg"
+  },
+  {
+    "name": "William S. Broomfield",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/231_william_s_broomfield.jpg"
+  },
+  {
+    "name": "Jack II. McDonald",
+    "party": "Republican",
+    "state": "MICHIGAN",
+    "image": "photos/232_jack_ii_mcdonald.jpg"
+  },
+  {
+    "name": "Eugene J. McCarthy",
+    "party": "Democrat",
+    "state": "MINNESOTA",
+    "image": "photos/233_eugene_j_mccarthy.jpg"
+  },
+  {
+    "name": "Walter F. Mondale",
+    "party": "Democrat",
+    "state": "MINNESOTA",
+    "image": "photos/234_walter_f_mondale.jpg"
+  },
+  {
+    "name": "Albert II. Quie",
+    "party": "Republican",
+    "state": "MINNESOTA",
+    "image": "photos/235_albert_ii_quie.jpg"
+  },
+  {
+    "name": "Ancher Nelsen",
+    "party": "Republican",
+    "state": "MINNESOTA",
+    "image": "photos/236_ancher_nelsen.jpg"
+  },
+  {
+    "name": "Clark MacGregor",
+    "party": "Republican",
+    "state": "MINNESOTA",
+    "image": "photos/237_clark_macgregor.jpg"
+  },
+  {
+    "name": "Democrat—5th term",
+    "party": "Democrat",
+    "state": "MINNESOTA",
+    "image": "photos/238_democrat_5th_term.jpg"
+  },
+  {
+    "name": "Donald M. Fraser",
+    "party": "Democrat",
+    "state": "MINNESOTA",
+    "image": "photos/239_donald_m_fraser.jpg"
+  },
+  {
+    "name": "John M. Zwach",
+    "party": "Republican",
+    "state": "MINNESOTA",
+    "image": "photos/240_john_m_zwach.jpg"
+  },
+  {
+    "name": "Odin Langen",
+    "party": "Republican",
+    "state": "MINNESOTA",
+    "image": "photos/241_odin_langen.jpg"
+  },
+  {
+    "name": "John A. Blatnik",
+    "party": "Democrat",
+    "state": "MINNESOTA",
+    "image": "photos/242_john_a_blatnik.jpg"
+  },
+  {
+    "name": "James O. Eastland",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/243_james_o_eastland.jpg"
+  },
+  {
+    "name": "John Stennis",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/244_john_stennis.jpg"
+  },
+  {
+    "name": "Democrat—13 th term",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/245_democrat_13_th_term.jpg"
+  },
+  {
+    "name": "Jamie L. Whitten",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/246_jamie_l_whitten.jpg"
+  },
+  {
+    "name": "John Bell Williams",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/247_john_bell_williams.jpg"
+  },
+  {
+    "name": "G. V. (Sonny) Montgomery",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/248_g_v_sonny_montgomery.jpg"
+  },
+  {
+    "name": "William M. Colmer",
+    "party": "Democrat",
+    "state": "MISSISSIPPI",
+    "image": "photos/249_william_m_colmer.jpg"
+  },
+  {
+    "name": "Democrat—Jan. 3, 1953",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/250_democrat_jan_3_1953.jpg"
+  },
+  {
+    "name": "Edward V. Long",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/251_edward_v_long.jpg"
+  },
+  {
+    "name": "Frank M. Karsten",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/252_frank_m_karsten.jpg"
+  },
+  {
+    "name": "Thomas B. Curtis",
+    "party": "Republican",
+    "state": "MISSOURI",
+    "image": "photos/253_thomas_b_curtis.jpg"
+  },
+  {
+    "name": "Leonor K. Sullivan",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/254_leonor_k_sullivan.jpg"
+  },
+  {
+    "name": "Wm. J. Randall",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/255_wm_j_randall.jpg"
+  },
+  {
+    "name": "Richard Bolling",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/256_richard_bolling.jpg"
+  },
+  {
+    "name": "W. R. Hull, Jr.",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/257_w_r_hull_jr.jpg"
+  },
+  {
+    "name": "Durward G. Hall",
+    "party": "Republican",
+    "state": "MISSOURI",
+    "image": "photos/258_durward_g_hall.jpg"
+  },
+  {
+    "name": "Richard II. Ichord",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/259_richard_ii_ichord.jpg"
+  },
+  {
+    "name": "WiRiam L. Hun gate",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/260_wiriam_l_hun_gate.jpg"
+  },
+  {
+    "name": "Paul C. Jones",
+    "party": "Democrat",
+    "state": "MISSOURI",
+    "image": "photos/261_paul_c_jones.jpg"
+  },
+  {
+    "name": "Mike Mansfield",
+    "party": "Democrat",
+    "state": "MONTANA",
+    "image": "photos/262_mike_mansfield.jpg"
+  },
+  {
+    "name": "Lee Metcalf",
+    "party": "Democrat",
+    "state": "MONTANA",
+    "image": "photos/263_lee_metcalf.jpg"
+  },
+  {
+    "name": "Democrat—4th term",
+    "party": "Democrat",
+    "state": "MONTANA",
+    "image": "photos/264_democrat_4th_term.jpg"
+  },
+  {
+    "name": "Republican—4th term",
+    "party": "Republican",
+    "state": "MONTANA",
+    "image": "photos/265_republican_4th_term.jpg"
+  },
+  {
+    "name": "Roman L. Hruska",
+    "party": "Republican",
+    "state": "NEBRASKA",
+    "image": "photos/266_roman_l_hruska.jpg"
+  },
+  {
+    "name": "Car! T. Curtis",
+    "party": "Republican",
+    "state": "NEBRASKA",
+    "image": "photos/267_car_t_curtis.jpg"
+  },
+  {
+    "name": "Robert V. Denney",
+    "party": "Republican",
+    "state": "NEBRASKA",
+    "image": "photos/268_robert_v_denney.jpg"
+  },
+  {
+    "name": "Glenn Cunningham",
+    "party": "Republican",
+    "state": "NEBRASKA",
+    "image": "photos/269_glenn_cunningham.jpg"
+  },
+  {
+    "name": "David T. Martin",
+    "party": "Republican",
+    "state": "NEBRASKA",
+    "image": "photos/270_david_t_martin.jpg"
+  },
+  {
+    "name": "Alan Bible",
+    "party": "Democrat",
+    "state": "NEVADA",
+    "image": "photos/271_alan_bible.jpg"
+  },
+  {
+    "name": "Howard W. Cannon",
+    "party": "Democrat",
+    "state": "NEVADA",
+    "image": "photos/272_howard_w_cannon.jpg"
+  },
+  {
+    "name": "Walter S. Baring",
+    "party": "Democrat",
+    "state": "NEVADA",
+    "image": "photos/273_walter_s_baring.jpg"
+  },
+  {
+    "name": "Norris Cotton",
+    "party": "Republican",
+    "state": "NEW HAMPSHIRE",
+    "image": "photos/274_norris_cotton.jpg"
+  },
+  {
+    "name": "Thomas J. McIntyre",
+    "party": "Democrat",
+    "state": "NEW HAMPSHIRE",
+    "image": "photos/275_thomas_j_mcintyre.jpg"
+  },
+  {
+    "name": "Louis C. Wyman",
+    "party": "Republican",
+    "state": "NEW HAMPSHIRE",
+    "image": "photos/276_louis_c_wyman.jpg"
+  },
+  {
+    "name": "James C. Cleveland",
+    "party": "Republican",
+    "state": "NEW HAMPSHIRE",
+    "image": "photos/277_james_c_cleveland.jpg"
+  },
+  {
+    "name": "Clifford P. Case",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/278_clifford_p_case.jpg"
+  },
+  {
+    "name": "Harrison A. Williams,",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/279_harrison_a_williams.jpg"
+  },
+  {
+    "name": "John E. Hunt",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/280_john_e_hunt.jpg"
+  },
+  {
+    "name": "Charles W. Sandman, Jr.",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/281_charles_w_sandman_jr.jpg"
+  },
+  {
+    "name": "James J. Howard",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/282_james_j_howard.jpg"
+  },
+  {
+    "name": "Peter H. B. Frelinghuysen",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/283_peter_h_b_frelinghuysen.jpg"
+  },
+  {
+    "name": "Frank Thompson, Jr.",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/284_frank_thompson_jr.jpg"
+  },
+  {
+    "name": "William T. Cahill",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/285_william_t_cahill.jpg"
+  },
+  {
+    "name": "William B. Widnall",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/286_william_b_widnall.jpg"
+  },
+  {
+    "name": "Charles S. Joelson",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/287_charles_s_joelson.jpg"
+  },
+  {
+    "name": "Henry Helstoski",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/288_henry_helstoski.jpg"
+  },
+  {
+    "name": "Peter W. Rodino, Jr.",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/289_peter_w_rodino_jr.jpg"
+  },
+  {
+    "name": "Joseph G. Minish",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/290_joseph_g_minish.jpg"
+  },
+  {
+    "name": "Florence P. Dwyer",
+    "party": "Republican",
+    "state": "NEW JERSEY",
+    "image": "photos/291_florence_p_dwyer.jpg"
+  },
+  {
+    "name": "Cornelius E. Gallagher",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/292_cornelius_e_gallagher.jpg"
+  },
+  {
+    "name": "Dominick V. Daniels",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/293_dominick_v_daniels.jpg"
+  },
+  {
+    "name": "Edward J. Patten",
+    "party": "Democrat",
+    "state": "NEW JERSEY",
+    "image": "photos/294_edward_j_patten.jpg"
+  },
+  {
+    "name": "Clinton P. Anderson",
+    "party": "Democrat",
+    "state": "NEW MEXICO",
+    "image": "photos/295_clinton_p_anderson.jpg"
+  },
+  {
+    "name": "Joseph M. Montoya",
+    "party": "Democrat",
+    "state": "NEW MEXICO",
+    "image": "photos/296_joseph_m_montoya.jpg"
+  },
+  {
+    "name": "Thomas G. Morris",
+    "party": "Democrat",
+    "state": "NEW MEXICO",
+    "image": "photos/297_thomas_g_morris.jpg"
+  },
+  {
+    "name": "E. S. Johnny Walker",
+    "party": "Democrat",
+    "state": "NEW MEXICO",
+    "image": "photos/298_e_s_johnny_walker.jpg"
+  },
+  {
+    "name": "Jacob K. Javits",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/299_jacob_k_javits.jpg"
+  },
+  {
+    "name": "Robert F. Kennedy",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/300_robert_f_kennedy.jpg"
+  },
+  {
+    "name": "Otis G. Pike",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/301_otis_g_pike.jpg"
+  },
+  {
+    "name": "James R. Grover, Jr.",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/302_james_r_grover_jr.jpg"
+  },
+  {
+    "name": "Lester L. WolfT",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/303_lester_l_wolft.jpg"
+  },
+  {
+    "name": "John W. Wydler",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/304_john_w_wydler.jpg"
+  },
+  {
+    "name": "Herbert Tenzer",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/305_herbert_tenzer.jpg"
+  },
+  {
+    "name": "Seymour Halpern",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/306_seymour_halpern.jpg"
+  },
+  {
+    "name": "Joseph P. Addabbo",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/307_joseph_p_addabbo.jpg"
+  },
+  {
+    "name": "Benjamin S. Rosenthal",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/308_benjamin_s_rosenthal.jpg"
+  },
+  {
+    "name": "James J. Delaney",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/309_james_j_delaney.jpg"
+  },
+  {
+    "name": "Emanuel Geller",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/310_emanuel_geller.jpg"
+  },
+  {
+    "name": "Frank J. Brasco",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/311_frank_j_brasco.jpg"
+  },
+  {
+    "name": "Edna F. Kelly",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/312_edna_f_kelly.jpg"
+  },
+  {
+    "name": "Abraham J. Mui ter",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/313_abraham_j_mui_ter.jpg"
+  },
+  {
+    "name": "John J. Rooney",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/314_john_j_rooney.jpg"
+  },
+  {
+    "name": "Hugh L. Carey",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/315_hugh_l_carey.jpg"
+  },
+  {
+    "name": "John M. Murphy",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/316_john_m_murphy.jpg"
+  },
+  {
+    "name": "Theodore R. Kupferman",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/317_theodore_r_kupferman.jpg"
+  },
+  {
+    "name": "Adam C. Powell",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/318_adam_c_powell.jpg"
+  },
+  {
+    "name": "Leonard Farbstein",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/319_leonard_farbstein.jpg"
+  },
+  {
+    "name": "William F. Ryan",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/320_william_f_ryan.jpg"
+  },
+  {
+    "name": "James H. Scheuer",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/321_james_h_scheuer.jpg"
+  },
+  {
+    "name": "Jacob II. Gilbert",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/322_jacob_ii_gilbert.jpg"
+  },
+  {
+    "name": "Jonathan B. Bingham",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/323_jonathan_b_bingham.jpg"
+  },
+  {
+    "name": "Republican—8th term",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/324_republican_8th_term.jpg"
+  },
+  {
+    "name": "Richard L. Ottinger",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/325_richard_l_ottinger.jpg"
+  },
+  {
+    "name": "Ogden R. Reid",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/326_ogden_r_reid.jpg"
+  },
+  {
+    "name": "John G. Dow",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/327_john_g_dow.jpg"
+  },
+  {
+    "name": "Joseph Y. Resnick",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/328_joseph_y_resnick.jpg"
+  },
+  {
+    "name": "Daniel E. Button, Jr.",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/329_daniel_e_button_jr.jpg"
+  },
+  {
+    "name": "Carleton J. King",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/330_carleton_j_king.jpg"
+  },
+  {
+    "name": "Robert C. McEwen",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/331_robert_c_mcewen.jpg"
+  },
+  {
+    "name": "Alexander Pirnie",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/332_alexander_pirnie.jpg"
+  },
+  {
+    "name": "Janies M. Hanley",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/333_janies_m_hanley.jpg"
+  },
+  {
+    "name": "Howard W. Robison",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/334_howard_w_robison.jpg"
+  },
+  {
+    "name": "Samuel S. Stratton",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/335_samuel_s_stratton.jpg"
+  },
+  {
+    "name": "Frank Horton",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/336_frank_horton.jpg"
+  },
+  {
+    "name": "Barber B. Conable, Jr.",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/337_barber_b_conable_jr.jpg"
+  },
+  {
+    "name": "Charles E. Goodell",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/338_charles_e_goodell.jpg"
+  },
+  {
+    "name": "Henry P. Smith 3d",
+    "party": "Republican",
+    "state": "NEW YORK",
+    "image": "photos/339_henry_p_smith_3d.jpg"
+  },
+  {
+    "name": "Richard D. McCarthy",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/340_richard_d_mccarthy.jpg"
+  },
+  {
+    "name": "Thaddeus J. Dulski",
+    "party": "Democrat",
+    "state": "NEW YORK",
+    "image": "photos/341_thaddeus_j_dulski.jpg"
+  },
+  {
+    "name": "Sam J. Ervin, Jr.",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/342_sam_j_ervin_jr.jpg"
+  },
+  {
+    "name": "B. Everett Jordan",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/343_b_everett_jordan.jpg"
+  },
+  {
+    "name": "Walter B. Jones",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/344_walter_b_jones.jpg"
+  },
+  {
+    "name": "L. H. Fountain",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/345_l_h_fountain.jpg"
+  },
+  {
+    "name": "David N. Henderson",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/346_david_n_henderson.jpg"
+  },
+  {
+    "name": "Janies C. Gardner",
+    "party": "Republican",
+    "state": "NORTH CAROLINA",
+    "image": "photos/347_janies_c_gardner.jpg"
+  },
+  {
+    "name": "Nick Galifianakis",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/348_nick_galifianakis.jpg"
+  },
+  {
+    "name": "Horace R. Kornegay",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/349_horace_r_kornegay.jpg"
+  },
+  {
+    "name": "Alton Lennon",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/350_alton_lennon.jpg"
+  },
+  {
+    "name": "Charles R. Jonas",
+    "party": "Republican",
+    "state": "NORTH CAROLINA",
+    "image": "photos/351_charles_r_jonas.jpg"
+  },
+  {
+    "name": "Janies T. Broyhill",
+    "party": "Republican",
+    "state": "NORTH CAROLINA",
+    "image": "photos/352_janies_t_broyhill.jpg"
+  },
+  {
+    "name": "Basil L. Whitener",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/353_basil_l_whitener.jpg"
+  },
+  {
+    "name": "Roy A. Taylor",
+    "party": "Democrat",
+    "state": "NORTH CAROLINA",
+    "image": "photos/354_roy_a_taylor.jpg"
+  },
+  {
+    "name": "Milton R. Young",
+    "party": "Republican",
+    "state": "NORTH DAKOTA",
+    "image": "photos/355_milton_r_young.jpg"
+  },
+  {
+    "name": "Quentin N. Burdick",
+    "party": "Democrat",
+    "state": "NORTH DAKOTA",
+    "image": "photos/356_quentin_n_burdick.jpg"
+  },
+  {
+    "name": "Mark Andrews",
+    "party": "Republican",
+    "state": "NORTH DAKOTA",
+    "image": "photos/357_mark_andrews.jpg"
+  },
+  {
+    "name": "Thomas S. Kleppe",
+    "party": "Republican",
+    "state": "NORTH DAKOTA",
+    "image": "photos/358_thomas_s_kleppe.jpg"
+  },
+  {
+    "name": "Frank J. Lausche",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/359_frank_j_lausche.jpg"
+  },
+  {
+    "name": "Stephen M. Young",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/360_stephen_m_young.jpg"
+  },
+  {
+    "name": "Robert A. Taft, Jr.",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/361_robert_a_taft_jr.jpg"
+  },
+  {
+    "name": "Donald D. Clancy",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/362_donald_d_clancy.jpg"
+  },
+  {
+    "name": "Charles W. Whalen, Jr.",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/363_charles_w_whalen_jr.jpg"
+  },
+  {
+    "name": "William M. McCulloch",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/364_william_m_mcculloch.jpg"
+  },
+  {
+    "name": "Delbert L. Latta",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/365_delbert_l_latta.jpg"
+  },
+  {
+    "name": "William H. Harsha",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/366_william_h_harsha.jpg"
+  },
+  {
+    "name": "Clarence J. Brown, Jr.",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/367_clarence_j_brown_jr.jpg"
+  },
+  {
+    "name": "Jackson E. Betts",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/368_jackson_e_betts.jpg"
+  },
+  {
+    "name": "Thomas L. Ashley",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/369_thomas_l_ashley.jpg"
+  },
+  {
+    "name": "Clarence E. Miller",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/370_clarence_e_miller.jpg"
+  },
+  {
+    "name": "Charles A. Mosher",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/371_charles_a_mosher.jpg"
+  },
+  {
+    "name": "William H. Ayres",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/372_william_h_ayres.jpg"
+  },
+  {
+    "name": "Chalmers P. Wylie",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/373_chalmers_p_wylie.jpg"
+  },
+  {
+    "name": "Frank T. Bow",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/374_frank_t_bow.jpg"
+  },
+  {
+    "name": "John M. Ashbrook",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/375_john_m_ashbrook.jpg"
+  },
+  {
+    "name": "Wayne L. Hays",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/376_wayne_l_hays.jpg"
+  },
+  {
+    "name": "Michael J. Kirwan",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/377_michael_j_kirwan.jpg"
+  },
+  {
+    "name": "Michael A. Feighan",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/378_michael_a_feighan.jpg"
+  },
+  {
+    "name": "Charles A. Vanik",
+    "party": "Democrat",
+    "state": "OHIO",
+    "image": "photos/379_charles_a_vanik.jpg"
+  },
+  {
+    "name": "Frances P. Bolton",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/380_frances_p_bolton.jpg"
+  },
+  {
+    "name": "William E. Minshall",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/381_william_e_minshall.jpg"
+  },
+  {
+    "name": "Donald E. Lukens",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/382_donald_e_lukens.jpg"
+  },
+  {
+    "name": "A. S. Alike Alonroney",
+    "party": "Democrat",
+    "state": "OKLAHOMA",
+    "image": "photos/383_a_s_alike_alonroney.jpg"
+  },
+  {
+    "name": "Fred R. Harris",
+    "party": "Democrat",
+    "state": "OKLAHOMA",
+    "image": "photos/384_fred_r_harris.jpg"
+  },
+  {
+    "name": "Ed Edmondson",
+    "party": "Democrat",
+    "state": "OKLAHOMA",
+    "image": "photos/385_ed_edmondson.jpg"
+  },
+  {
+    "name": "Page Belcher",
+    "party": "Republican",
+    "state": "OKLAHOMA",
+    "image": "photos/386_page_belcher.jpg"
+  },
+  {
+    "name": "Carl Albert",
+    "party": "Democrat",
+    "state": "OKLAHOMA",
+    "image": "photos/387_carl_albert.jpg"
+  },
+  {
+    "name": "Tom Steed",
+    "party": "Democrat",
+    "state": "OKLAHOMA",
+    "image": "photos/388_tom_steed.jpg"
+  },
+  {
+    "name": "John Jarman",
+    "party": "Democrat",
+    "state": "OKLAHOMA",
+    "image": "photos/389_john_jarman.jpg"
+  },
+  {
+    "name": "James V. Smith",
+    "party": "Republican",
+    "state": "OKLAHOMA",
+    "image": "photos/390_james_v_smith.jpg"
+  },
+  {
+    "name": "Wayne Morse",
+    "party": "Democrat",
+    "state": "OREGON",
+    "image": "photos/391_wayne_morse.jpg"
+  },
+  {
+    "name": "Mark O. Hatfield",
+    "party": "Republican",
+    "state": "OREGON",
+    "image": "photos/392_mark_o_hatfield.jpg"
+  },
+  {
+    "name": "Wendell Wyatt",
+    "party": "Republican",
+    "state": "OREGON",
+    "image": "photos/393_wendell_wyatt.jpg"
+  },
+  {
+    "name": "Al Ullman",
+    "party": "Democrat",
+    "state": "OREGON",
+    "image": "photos/394_al_ullman.jpg"
+  },
+  {
+    "name": "Edith Green",
+    "party": "Democrat",
+    "state": "OREGON",
+    "image": "photos/395_edith_green.jpg"
+  },
+  {
+    "name": "John R. Dellenback",
+    "party": "Republican",
+    "state": "OREGON",
+    "image": "photos/396_john_r_dellenback.jpg"
+  },
+  {
+    "name": "Joseph S. Clark",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/397_joseph_s_clark.jpg"
+  },
+  {
+    "name": "Hugh Scott",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/398_hugh_scott.jpg"
+  },
+  {
+    "name": "William A. Barrett",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/399_william_a_barrett.jpg"
+  },
+  {
+    "name": "Robert N. C. Nix",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/400_robert_n_c_nix.jpg"
+  },
+  {
+    "name": "James A. Byrne",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/401_james_a_byrne.jpg"
+  },
+  {
+    "name": "Joshua Eilberg",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/402_joshua_eilberg.jpg"
+  },
+  {
+    "name": "William J. Green",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/403_william_j_green.jpg"
+  },
+  {
+    "name": "George M. Rhodes",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/404_george_m_rhodes.jpg"
+  },
+  {
+    "name": "Lawrence G. Williams",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/405_lawrence_g_williams.jpg"
+  },
+  {
+    "name": "Edward G. Biester, Jr.",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/406_edward_g_biester_jr.jpg"
+  },
+  {
+    "name": "G. Robert Watkins",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/407_g_robert_watkins.jpg"
+  },
+  {
+    "name": "Joseph M. McDade",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/408_joseph_m_mcdade.jpg"
+  },
+  {
+    "name": "Daniel J. Flood",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/409_daniel_j_flood.jpg"
+  },
+  {
+    "name": "J. Irving Whalley",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/410_j_irving_whalley.jpg"
+  },
+  {
+    "name": "Richard S. Schweiker",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/411_richard_s_schweiker.jpg"
+  },
+  {
+    "name": "William S. Moorhead",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/412_william_s_moorhead.jpg"
+  },
+  {
+    "name": "Fred B. Rooney",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/413_fred_b_rooney.jpg"
+  },
+  {
+    "name": "Edwin D. Eshleman",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/414_edwin_d_eshleman.jpg"
+  },
+  {
+    "name": "Robert J. Corbett",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/415_robert_j_corbett.jpg"
+  },
+  {
+    "name": "Herman T. Schneebeli",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/416_herman_t_schneebeli.jpg"
+  },
+  {
+    "name": "George A. Goodling",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/417_george_a_goodling.jpg"
+  },
+  {
+    "name": "Elmer J. Holland",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/418_elmer_j_holland.jpg"
+  },
+  {
+    "name": "John H. Dent",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/419_john_h_dent.jpg"
+  },
+  {
+    "name": "John P. Saylor",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/420_john_p_saylor.jpg"
+  },
+  {
+    "name": "Albert W. Johnson",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/421_albert_w_johnson.jpg"
+  },
+  {
+    "name": "Joseph P. Vigorito",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/422_joseph_p_vigorito.jpg"
+  },
+  {
+    "name": "Frank M. Clark",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/423_frank_m_clark.jpg"
+  },
+  {
+    "name": "Thomas E. Morgan",
+    "party": "Democrat",
+    "state": "PENNSYLVANIA",
+    "image": "photos/424_thomas_e_morgan.jpg"
+  },
+  {
+    "name": "James G. Fulton",
+    "party": "Republican",
+    "state": "PENNSYLVANIA",
+    "image": "photos/425_james_g_fulton.jpg"
+  },
+  {
+    "name": "John O. Pastore",
+    "party": "Democrat",
+    "state": "RHODE ISLAND",
+    "image": "photos/426_john_o_pastore.jpg"
+  },
+  {
+    "name": "Claiborne Pell",
+    "party": "Democrat",
+    "state": "RHODE ISLAND",
+    "image": "photos/427_claiborne_pell.jpg"
+  },
+  {
+    "name": "Fernand J. St Germain",
+    "party": "Democrat",
+    "state": "RHODE ISLAND",
+    "image": "photos/428_fernand_j_st_germain.jpg"
+  },
+  {
+    "name": "Strom Thurmond",
+    "party": "Republican",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/429_strom_thurmond.jpg"
+  },
+  {
+    "name": "Ernest F. Hollings",
+    "party": "Democrat",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/430_ernest_f_hollings.jpg"
+  },
+  {
+    "name": "L. Mendel Rivers",
+    "party": "Democrat",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/431_l_mendel_rivers.jpg"
+  },
+  {
+    "name": "Albert W. Watson",
+    "party": "Republican",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/432_albert_w_watson.jpg"
+  },
+  {
+    "name": "W. J. Bryan Dorn",
+    "party": "Democrat",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/433_w_j_bryan_dorn.jpg"
+  },
+  {
+    "name": "Robert T. Ashmore",
+    "party": "Democrat",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/434_robert_t_ashmore.jpg"
+  },
+  {
+    "name": "Tom S. Gettys",
+    "party": "Democrat",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/435_tom_s_gettys.jpg"
+  },
+  {
+    "name": "John L. McMillan",
+    "party": "Democrat",
+    "state": "SOUTH CAROLINA",
+    "image": "photos/436_john_l_mcmillan.jpg"
+  },
+  {
+    "name": "Karl E. Mundt",
+    "party": "Republican",
+    "state": "SOUTH DAKOTA",
+    "image": "photos/437_karl_e_mundt.jpg"
+  },
+  {
+    "name": "George S. McGovern",
+    "party": "Democrat",
+    "state": "SOUTH DAKOTA",
+    "image": "photos/438_george_s_mcgovern.jpg"
+  },
+  {
+    "name": "Ben Reifel",
+    "party": "Republican",
+    "state": "SOUTH DAKOTA",
+    "image": "photos/439_ben_reifel.jpg"
+  },
+  {
+    "name": "E. Y. Berry",
+    "party": "Republican",
+    "state": "SOUTH DAKOTA",
+    "image": "photos/440_e_y_berry.jpg"
+  },
+  {
+    "name": "Albert Gore",
+    "party": "Democrat",
+    "state": "TENNESSEE",
+    "image": "photos/441_albert_gore.jpg"
+  },
+  {
+    "name": "Howard H. Baker, Jr.",
+    "party": "Republican",
+    "state": "TENNESSEE",
+    "image": "photos/442_howard_h_baker_jr.jpg"
+  },
+  {
+    "name": "James H. Quillen",
+    "party": "Republican",
+    "state": "TENNESSEE",
+    "image": "photos/443_james_h_quillen.jpg"
+  },
+  {
+    "name": "John J. Duncan",
+    "party": "Republican",
+    "state": "TENNESSEE",
+    "image": "photos/444_john_j_duncan.jpg"
+  },
+  {
+    "name": "William E. Brock 3d",
+    "party": "Republican",
+    "state": "TENNESSEE",
+    "image": "photos/445_william_e_brock_3d.jpg"
+  },
+  {
+    "name": "Joe L. Evins",
+    "party": "Democrat",
+    "state": "TENNESSEE",
+    "image": "photos/446_joe_l_evins.jpg"
+  },
+  {
+    "name": "Richard H. Fulton",
+    "party": "Democrat",
+    "state": "TENNESSEE",
+    "image": "photos/447_richard_h_fulton.jpg"
+  },
+  {
+    "name": "William R. Anderson",
+    "party": "Democrat",
+    "state": "TENNESSEE",
+    "image": "photos/448_william_r_anderson.jpg"
+  },
+  {
+    "name": "Ray Blanton",
+    "party": "Democrat",
+    "state": "TENNESSEE",
+    "image": "photos/449_ray_blanton.jpg"
+  },
+  {
+    "name": "Democrat—6lh term",
+    "party": "Democrat",
+    "state": "TENNESSEE",
+    "image": "photos/450_democrat_6lh_term.jpg"
+  },
+  {
+    "name": "Dan Kuykendall",
+    "party": "Republican",
+    "state": "TENNESSEE",
+    "image": "photos/451_dan_kuykendall.jpg"
+  },
+  {
+    "name": "Ralph W. Yarborough",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/452_ralph_w_yarborough.jpg"
+  },
+  {
+    "name": "John G. Tower",
+    "party": "Republican",
+    "state": "TEXAS",
+    "image": "photos/453_john_g_tower.jpg"
+  },
+  {
+    "name": "John Dowdy",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/454_john_dowdy.jpg"
+  },
+  {
+    "name": "Wright Patman",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/455_wright_patman.jpg"
+  },
+  {
+    "name": "Ray Roberts",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/456_ray_roberts.jpg"
+  },
+  {
+    "name": "Joe Pool",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/457_joe_pool.jpg"
+  },
+  {
+    "name": "Earle Cabell",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/458_earle_cabell.jpg"
+  },
+  {
+    "name": "Olin E. Teague",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/459_olin_e_teague.jpg"
+  },
+  {
+    "name": "George Bush",
+    "party": "Republican",
+    "state": "TEXAS",
+    "image": "photos/460_george_bush.jpg"
+  },
+  {
+    "name": "Robert C. Eckhardt",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/461_robert_c_eckhardt.jpg"
+  },
+  {
+    "name": "J. J. (Jake) Pickle",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/462_j_j_jake_pickle.jpg"
+  },
+  {
+    "name": "Jack Brooks",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/463_jack_brooks.jpg"
+  },
+  {
+    "name": "W. R. Poage",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/464_w_r_poage.jpg"
+  },
+  {
+    "name": "James C. Wright, Jr.",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/465_james_c_wright_jr.jpg"
+  },
+  {
+    "name": "Graham Purcell",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/466_graham_purcell.jpg"
+  },
+  {
+    "name": "John Young",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/467_john_young.jpg"
+  },
+  {
+    "name": "Eligio de la Garza",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/468_eligio_de_la_garza.jpg"
+  },
+  {
+    "name": "Richard C. White",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/469_richard_c_white.jpg"
+  },
+  {
+    "name": "Omar Burleson",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/470_omar_burleson.jpg"
+  },
+  {
+    "name": "Robert D. Price",
+    "party": "Republican",
+    "state": "TEXAS",
+    "image": "photos/471_robert_d_price.jpg"
+  },
+  {
+    "name": "George II. Mahon",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/472_george_ii_mahon.jpg"
+  },
+  {
+    "name": "Henry B. Gonzalez",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/473_henry_b_gonzalez.jpg"
+  },
+  {
+    "name": "O. C. Fisher",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/474_o_c_fisher.jpg"
+  },
+  {
+    "name": "Bob Casey",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/475_bob_casey.jpg"
+  },
+  {
+    "name": "Abraham Kazen",
+    "party": "Democrat",
+    "state": "TEXAS",
+    "image": "photos/476_abraham_kazen.jpg"
+  },
+  {
+    "name": "Wallace F. Bennett",
+    "party": "Republican",
+    "state": "UTAH",
+    "image": "photos/477_wallace_f_bennett.jpg"
+  },
+  {
+    "name": "Frank E. Moss",
+    "party": "Democrat",
+    "state": "UTAH",
+    "image": "photos/478_frank_e_moss.jpg"
+  },
+  {
+    "name": "Laurence J. Burton",
+    "party": "Republican",
+    "state": "UTAH",
+    "image": "photos/479_laurence_j_burton.jpg"
+  },
+  {
+    "name": "Sherman P. Lloyd",
+    "party": "Republican",
+    "state": "UTAH",
+    "image": "photos/480_sherman_p_lloyd.jpg"
+  },
+  {
+    "name": "George D. Aiken",
+    "party": "Republican",
+    "state": "VERMONT",
+    "image": "photos/481_george_d_aiken.jpg"
+  },
+  {
+    "name": "Winston L. Prouty",
+    "party": "Republican",
+    "state": "VERMONT",
+    "image": "photos/482_winston_l_prouty.jpg"
+  },
+  {
+    "name": "Robert T. Stafford",
+    "party": "Republican",
+    "state": "VERMONT",
+    "image": "photos/483_robert_t_stafford.jpg"
+  },
+  {
+    "name": "Thomas N. Downing",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/484_thomas_n_downing.jpg"
+  },
+  {
+    "name": "Democrat—Dec. 31, 1966",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/485_democrat_dec_31_1966.jpg"
+  },
+  {
+    "name": "Porter Hardy, Jr.",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/486_porter_hardy_jr.jpg"
+  },
+  {
+    "name": "David E. Satterfield 3d",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/487_david_e_satterfield_3d.jpg"
+  },
+  {
+    "name": "Watkins M. Abbitt",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/488_watkins_m_abbitt.jpg"
+  },
+  {
+    "name": "William M. Tuck",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/489_william_m_tuck.jpg"
+  },
+  {
+    "name": "Richard H. Poff",
+    "party": "Republican",
+    "state": "VIRGINIA",
+    "image": "photos/490_richard_h_poff.jpg"
+  },
+  {
+    "name": "John O. Marsh, Jr.",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/491_john_o_marsh_jr.jpg"
+  },
+  {
+    "name": "William L. Scot t",
+    "party": "Republican",
+    "state": "VIRGINIA",
+    "image": "photos/492_william_l_scot_t.jpg"
+  },
+  {
+    "name": "William C. Wampler",
+    "party": "Republican",
+    "state": "VIRGINIA",
+    "image": "photos/493_william_c_wampler.jpg"
+  },
+  {
+    "name": "Joel T. Broyhill",
+    "party": "Republican",
+    "state": "VIRGINIA",
+    "image": "photos/494_joel_t_broyhill.jpg"
+  },
+  {
+    "name": "Warren G. Magnuson",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/495_warren_g_magnuson.jpg"
+  },
+  {
+    "name": "Henry M. Jackson",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/496_henry_m_jackson.jpg"
+  },
+  {
+    "name": "Julia Butler Hansen",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/497_julia_butler_hansen.jpg"
+  },
+  {
+    "name": "Catherine May",
+    "party": "Republican",
+    "state": "WASHINGTON",
+    "image": "photos/498_catherine_may.jpg"
+  },
+  {
+    "name": "Thomas S. Foley",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/499_thomas_s_foley.jpg"
+  },
+  {
+    "name": "Floyd V. Hicks",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/500_floyd_v_hicks.jpg"
+  },
+  {
+    "name": "Brock Adams",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/501_brock_adams.jpg"
+  },
+  {
+    "name": "Jennings Randolph",
+    "party": "Democrat",
+    "state": "WEST VIRGINIA",
+    "image": "photos/502_jennings_randolph.jpg"
+  },
+  {
+    "name": "Robert C. Byrd",
+    "party": "Democrat",
+    "state": "WEST VIRGINIA",
+    "image": "photos/503_robert_c_byrd.jpg"
+  },
+  {
+    "name": "Arch A. Moore, Jr.",
+    "party": "Republican",
+    "state": "WEST VIRGINIA",
+    "image": "photos/504_arch_a_moore_jr.jpg"
+  },
+  {
+    "name": "Harley O. Staggers",
+    "party": "Democrat",
+    "state": "WEST VIRGINIA",
+    "image": "photos/505_harley_o_staggers.jpg"
+  },
+  {
+    "name": "John M. Slack, Jr.",
+    "party": "Democrat",
+    "state": "WEST VIRGINIA",
+    "image": "photos/506_john_m_slack_jr.jpg"
+  },
+  {
+    "name": "Ken Hechler",
+    "party": "Democrat",
+    "state": "WEST VIRGINIA",
+    "image": "photos/507_ken_hechler.jpg"
+  },
+  {
+    "name": "James Kee",
+    "party": "Democrat",
+    "state": "WEST VIRGINIA",
+    "image": "photos/508_james_kee.jpg"
+  },
+  {
+    "name": "William Proxmire",
+    "party": "Democrat",
+    "state": "WISCONSIN",
+    "image": "photos/509_william_proxmire.jpg"
+  },
+  {
+    "name": "Gaylord Nelson",
+    "party": "Democrat",
+    "state": "WISCONSIN",
+    "image": "photos/510_gaylord_nelson.jpg"
+  },
+  {
+    "name": "Henry C. Schadeberg",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/511_henry_c_schadeberg.jpg"
+  },
+  {
+    "name": "Robert W. Kastenmeier",
+    "party": "Democrat",
+    "state": "WISCONSIN",
+    "image": "photos/512_robert_w_kastenmeier.jpg"
+  },
+  {
+    "name": "Vernon W. Thomson",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/513_vernon_w_thomson.jpg"
+  },
+  {
+    "name": "Clement J. Zablocki",
+    "party": "Democrat",
+    "state": "WISCONSIN",
+    "image": "photos/514_clement_j_zablocki.jpg"
+  },
+  {
+    "name": "Henry S. Reuss",
+    "party": "Democrat",
+    "state": "WISCONSIN",
+    "image": "photos/515_henry_s_reuss.jpg"
+  },
+  {
+    "name": "William A. Steiger",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/516_william_a_steiger.jpg"
+  },
+  {
+    "name": "Melvin R. Laird",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/517_melvin_r_laird.jpg"
+  },
+  {
+    "name": "John W. Byrnes",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/518_john_w_byrnes.jpg"
+  },
+  {
+    "name": "Glenn R. Davis",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/519_glenn_r_davis.jpg"
+  },
+  {
+    "name": "Alvin E. O’Konski",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/520_alvin_e_okonski.jpg"
+  },
+  {
+    "name": "Gale W. McGee",
+    "party": "Democrat",
+    "state": "WISCONSIN",
+    "image": "photos/521_gale_w_mcgee.jpg"
+  },
+  {
+    "name": "Clifford P. Hansen",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/522_clifford_p_hansen.jpg"
+  },
+  {
+    "name": "William H. Harrison",
+    "party": "Republican",
+    "state": "WISCONSIN",
+    "image": "photos/523_william_h_harrison.jpg"
+  },
+  {
+    "name": "E. C. Gathings",
+    "party": "Democrat",
+    "state": "ARKANSAS",
+    "image": "photos/524_e_c_gathings.jpg"
+  },
+  {
+    "name": "Wilbur D. Mills",
+    "party": "Democrat",
+    "state": "ARKANSAS",
+    "image": "photos/525_wilbur_d_mills.jpg"
+  },
+  {
+    "name": "H. R. Gross",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/526_h_r_gross.jpg"
+  },
+  {
+    "name": "John H. Kyl",
+    "party": "Republican",
+    "state": "IOWA",
+    "image": "photos/527_john_h_kyl.jpg"
+  },
+  {
+    "name": "Samuel L. Devine",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/528_samuel_l_devine.jpg"
+  },
+  {
+    "name": "J. William Stanton",
+    "party": "Republican",
+    "state": "OHIO",
+    "image": "photos/529_j_william_stanton.jpg"
+  },
+  {
+    "name": "William B. Spong, Jr.",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/530_william_b_spong_jr.jpg"
+  },
+  {
+    "name": "Harry F. Byrd, Jr.",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/531_harry_f_byrd_jr.jpg"
+  },
+  {
+    "name": "Thomas N. Downing",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/532_thomas_n_downing.jpg"
+  },
+  {
+    "name": "Porter Hardy, Jr.",
+    "party": "Democrat",
+    "state": "VIRGINIA",
+    "image": "photos/533_porter_hardy_jr.jpg"
+  },
+  {
+    "name": "Thomas M. Pelly",
+    "party": "Republican",
+    "state": "WASHINGTON",
+    "image": "photos/534_thomas_m_pelly.jpg"
+  },
+  {
+    "name": "Lloyd Meeds",
+    "party": "Democrat",
+    "state": "WASHINGTON",
+    "image": "photos/535_lloyd_meeds.jpg"
+  }
+]

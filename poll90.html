@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>90th Congress Party Quiz</title>
+  <style>
+    :root{--bg:#111827;--card:#1f2937;--text:#f9fafb;--muted:#cbd5e1;--btn:#374151;--good:#16a34a;--bad:#dc2626;--accent:#2563eb}
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:760px;margin:0 auto;padding:18px}.card{background:var(--card);border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    h1{font-size:1.45rem;margin:0 0 8px}.small{color:var(--muted);font-size:.95rem}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.stat{background:#0b1220;border-radius:12px;padding:10px;text-align:center}.stat b{display:block;font-size:1.25rem}
+    .photoBox{margin:18px auto 12px;display:flex;justify-content:center;align-items:center;background:#0b1220;border-radius:14px;min-height:330px;overflow:hidden}.photoBox img{max-width:100%;max-height:520px;object-fit:contain;display:block}.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choices button,.action button,label.fileLabel{border:0;border-radius:12px;padding:14px;background:var(--btn);color:var(--text);font-weight:700;font-size:1rem;cursor:pointer}.choices button:hover,.action button:hover,label.fileLabel:hover{filter:brightness(1.12)}.action{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.action button,label.fileLabel{padding:10px 12px;font-size:.92rem}.correct{background:var(--good)!important}.wrong{background:var(--bad)!important}.feedback{min-height:38px;margin-top:12px;font-size:1rem}.hidden{display:none!important}.bar{height:12px;background:#0b1220;border-radius:999px;overflow:hidden;margin-top:10px}.fill{height:100%;width:0;background:var(--accent)}input[type=file]{display:none}.warning{border:1px solid #f59e0b;background:#451a03;color:#ffedd5;border-radius:12px;padding:10px;margin:12px 0}.footer{margin-top:14px;color:var(--muted);font-size:.86rem}
+    @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}.choices{grid-template-columns:1fr}.photoBox{min-height:250px}}
+  </style>
+</head>
+<body>
+<div class="wrap"><div class="card">
+  <h1>90th Congress Party Quiz</h1>
+  <div class="small">Photo-only mode. Choose the party. Progress saves automatically on this device.</div>
+  <div id="dataWarning" class="warning hidden">No full 90th Congress member file is loaded yet. Use <b>Import members90.json</b>, or add your own <code>members90.js</code> file next to this HTML.</div>
+  <div class="stats">
+    <div class="stat"><span>Question</span><b id="qNum">0/0</b></div><div class="stat"><span>Score</span><b id="score">0</b></div><div class="stat"><span>Accuracy</span><b id="accuracy">0%</b></div><div class="stat"><span>Left</span><b id="left">0</b></div>
+  </div>
+  <div class="bar"><div id="progressFill" class="fill"></div></div>
+  <div id="quizArea">
+    <div class="photoBox"><img id="photo" alt="90th Congress member photo" /></div>
+    <div class="choices" id="choices"></div>
+    <div id="feedback" class="feedback"></div>
+  </div>
+  <div id="doneArea" class="hidden"><h2>Quiz Complete</h2><p id="finalText"></p></div>
+  <div class="action">
+    <button id="nextBtn" class="hidden">Next</button><button id="restartBtn">Restart / Reshuffle</button><button id="clearBtn">Clear Saved Progress</button><label class="fileLabel" for="fileInput">Import members90.json</label><input id="fileInput" type="file" accept=".json,application/json" />
+  </div>
+  <div class="footer">Image paths should point to local files like <code>images90/B001234.jpg</code>. The official 90th Congressional Pictorial Directory is the photo source; crop photos into that folder and list them in the data file.</div>
+</div></div>
+<script>
+const STORAGE_KEY='congress90Quiz_v1';
+const PARTIES=['Democrat','Republican','Independent','Other'];
+// Optional: create a separate members90.js file with: window.MEMBERS_90 = [ ...535 objects... ];
+// Object format: { id:'M000001', party:'Democrat', image:'images90/M000001.jpg' }
+const STARTER_MEMBERS=[
+  {id:'sample-democrat', party:'Democrat', image:'https://placehold.co/360x460?text=Add+90th+Congress+Photo'},
+  {id:'sample-republican', party:'Republican', image:'https://placehold.co/360x460?text=Import+members90.json'}
+];
+let members = Array.isArray(window.MEMBERS_90) && window.MEMBERS_90.length ? window.MEMBERS_90 : STARTER_MEMBERS;
+let state = null;
+const $=id=>document.getElementById(id);
+function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}
+function load(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY))}catch{return null}}
+function newState(){return {order:shuffle(members.map((_,i)=>i)), current:0, correct:0, answered:0, locked:false, last:null, dataCount:members.length}}
+function validSaved(s){return s && Array.isArray(s.order) && s.dataCount===members.length && s.current<=s.order.length}
+function init(){ const saved=load(); state=validSaved(saved)?saved:newState(); $('dataWarning').classList.toggle('hidden', members!==STARTER_MEMBERS); render(); }
+function currentMember(){return members[state.order[state.current]]}
+function render(){
+  const total=state.order.length, answered=state.answered, left=Math.max(0,total-state.current);
+  $('qNum').textContent= total? Math.min(state.current+1,total)+'/'+total : '0/0'; $('score').textContent=state.correct; $('accuracy').textContent= answered? Math.round((state.correct/answered)*100)+'%' : '0%'; $('left').textContent=left; $('progressFill').style.width= total? (state.current/total*100)+'%' : '0%';
+  if(state.current>=total){$('quizArea').classList.add('hidden');$('doneArea').classList.remove('hidden');$('finalText').textContent=`Final score: ${state.correct} out of ${answered}. Accuracy: ${answered?Math.round(state.correct/answered*100):0}%.`;return}
+  $('quizArea').classList.remove('hidden');$('doneArea').classList.add('hidden'); const m=currentMember(); $('photo').src=m.image; $('photo').onerror=()=>{$('photo').src='https://placehold.co/360x460?text=Missing+Photo'}; $('feedback').textContent=''; $('nextBtn').classList.add('hidden');
+  const box=$('choices'); box.innerHTML=''; PARTIES.forEach(p=>{const b=document.createElement('button'); b.textContent=p; b.onclick=()=>answer(p,b); box.appendChild(b)});
+}
+function answer(choice,button){ if(state.locked) return; const m=currentMember(); state.locked=true; state.answered++; const correct=choice===m.party; if(correct) state.correct++; [...$('choices').children].forEach(btn=>{btn.disabled=true;if(btn.textContent===m.party)btn.classList.add('correct')}); if(!correct) button.classList.add('wrong'); $('feedback').textContent=correct?'Correct!':`Wrong. Correct answer: ${m.party}.`; $('nextBtn').classList.remove('hidden'); save(); updateStatsOnly(); }
+function updateStatsOnly(){const answered=state.answered;$('score').textContent=state.correct;$('accuracy').textContent=answered?Math.round(state.correct/answered*100)+'%':'0%'}
+$('nextBtn').onclick=()=>{state.current++;state.locked=false;state.last=null;save();render()};
+$('restartBtn').onclick=()=>{if(confirm('Restart the quiz and reshuffle all questions?')){state=newState();save();render()}};
+$('clearBtn').onclick=()=>{localStorage.removeItem(STORAGE_KEY);state=newState();render()};
+$('fileInput').addEventListener('change', async e=>{const file=e.target.files[0]; if(!file)return; try{const text=await file.text(); const data=JSON.parse(text); if(!Array.isArray(data)||!data.every(x=>x.party&&x.image)) throw new Error('Bad format'); members=data; state=newState(); save(); $('dataWarning').classList.add('hidden'); render(); alert('Loaded '+members.length+' members.');}catch(err){alert('Could not load JSON. Use an array of objects with party and image fields.')}});
+init();
+</script>
+</body>
+</html>
