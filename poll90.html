@@ -13,17 +13,36 @@ body{
   background:#f5f5f5;
 }
 
+#quiz{
+  max-width:420px;
+  margin:0 auto;
+}
+
+#name{
+  font-size:18px;
+  font-weight:bold;
+  margin:5px 0;
+}
+
+#photo{
+  max-width:100%;
+  max-height:58vh;
+  object-fit:contain;
+  border-radius:8px;
+  background:white;
+}
+
 #choices{
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(3,1fr);
   gap:8px;
   max-width:420px;
-  margin:0 auto 6px auto;
+  margin:8px auto 6px auto;
 }
 
 button{
-  font-size:17px;
-  padding:11px 4px;
+  font-size:16px;
+  padding:11px 3px;
   border-radius:8px;
   border:1px solid #333;
   background:white;
@@ -36,20 +55,6 @@ button{
   flex-wrap:wrap;
   font-size:15px;
   margin-bottom:6px;
-}
-
-#name{
-  font-size:18px;
-  font-weight:bold;
-  margin:5px 0;
-}
-
-#photo{
-  max-width:100%;
-  max-height:55vh;
-  object-fit:contain;
-  border-radius:8px;
-  background:white;
 }
 
 #feedback{
@@ -67,23 +72,22 @@ button{
 
 <body>
 
+<div id="quiz">
+  <div id="name">Loading...</div>
+  <img id="photo" src="">
+  <div id="feedback"></div>
+</div>
+
 <div id="choices">
   <button onclick="answer('Democrat')">Democrat</button>
   <button onclick="answer('Republican')">Republican</button>
   <button onclick="answer('Independent')">Independent</button>
-  <button onclick="answer('Other')">Other</button>
 </div>
 
 <div id="stats">
   <span id="score">Score: 0</span>
   <span id="accuracy">Accuracy: 0%</span>
   <span id="progress">0 / 0</span>
-</div>
-
-<div id="quiz">
-  <div id="name">Loading...</div>
-  <img id="photo" src="">
-  <div id="feedback"></div>
 </div>
 
 <div id="done">
@@ -111,6 +115,10 @@ fetch("members90.json")
     }
 
     showMember();
+  })
+  .catch(error => {
+    document.getElementById("name").textContent = "Could not load members90.json";
+    console.error(error);
   });
 
 function saveProgress() {
@@ -146,10 +154,6 @@ function answer(choice) {
   if (choice === "Democrat" && normalizedActual.includes("democrat")) isCorrect = true;
   if (choice === "Republican" && normalizedActual.includes("republican")) isCorrect = true;
   if (choice === "Independent" && normalizedActual.includes("independent")) isCorrect = true;
-  if (choice === "Other" &&
-      !normalizedActual.includes("democrat") &&
-      !normalizedActual.includes("republican") &&
-      !normalizedActual.includes("independent")) isCorrect = true;
 
   answered++;
 
